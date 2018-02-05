@@ -8,6 +8,8 @@ public class HelloWorld {
 		DateFormat dateFormat = new SimpleDateFormat("yyyy/MM/dd");
 		Date date = new Date();
 		System.out.println(dateFormat.format(date)); 
+		
+		System.out.println("Free memory (bytes): " + Runtime.getRuntime().freeMemory());
 
 		System.out.println("hi Alice");
 
